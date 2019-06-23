@@ -6,3 +6,5 @@ Run the script with Papers running. It will prompt for a directory, and will the
 This works well for importing into Mendeley: if you re-create the folder structure in Mendeley, you can just drag each RIS into its corresponding folder. Publications in sub-collections will appear in multiple RIS files, but Mendeley will not import them twice unless they have no metadata. If you check "Organize my files" in Mendeley options before importing, it will copy PDFs from your Papers3 directory into new Mendeley folder structure.
 
 The script is known to fail, sometimes silently, on collections with special characters, especially "/" in their names.
+
+Loosely based on this: https://github.com/extracts/mac-scripting
